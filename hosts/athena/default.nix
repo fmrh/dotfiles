@@ -36,7 +36,7 @@
     interfaces.wlo1.useDHCP = lib.mkDefault true;
   };
 
-  filesystems = {
+  fileSystems = {
 
     "/" = {
       device = "/dev/disk/by-label/ROOT";
