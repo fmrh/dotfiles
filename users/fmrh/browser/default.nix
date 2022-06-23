@@ -8,5 +8,6 @@ let
 in {
   programs.firefox = {
     enable = true;
+    extentions = myExtensions;
   };
 }
