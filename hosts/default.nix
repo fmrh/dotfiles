@@ -9,4 +9,13 @@
       ./daedalus
     ];
   };
+
+  athena = lib.nixosSystem {
+    inherit system;
+    specialArgs = { inherit inputs; };
+    modules = [
+      ./common
+      ./athena
+    ];
+  };
 }

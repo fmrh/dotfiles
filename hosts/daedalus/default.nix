@@ -1,9 +1,9 @@
 { config, lib, pkgs, modulesPath, ... }:
 
 {
-  imports =
-    [ (modulesPath + "/installer/scan/not-detected.nix")
-    ];
+  imports = [
+    (modulesPath + "/installer/scan/not-detected.nix")
+  ];
 
   boot = {
     cleanTmpDir = true;
@@ -11,7 +11,7 @@
       grub = {
         enable = true;
 	      device = "/dev/nvme0n1";
-	      configurationLimit = 5;
+	      configurationLimit = 10;
       };
       timeout = 3;
     };
