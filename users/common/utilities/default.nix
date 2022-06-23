@@ -4,4 +4,8 @@
   services.flameshot = {
     enable = true;
   };
+
+  programs.mpv = {
+    enable = true;
+  };
 }
