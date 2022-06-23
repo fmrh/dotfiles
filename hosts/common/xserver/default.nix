@@ -19,10 +19,11 @@
         };
       };
     };
-      
+
     desktopManager.plasma5.enable = true;
 
     layout = "us";
     xkbVariant = "";
+    xkbOptions = "ctrl:nocaps";
   };
 }
