@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./development
     ./editor
     ./shell
     ./terminal
