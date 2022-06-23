@@ -28,13 +28,22 @@
 
     # System packages
     systemPackages = with pkgs; [
-      bitwarden
+      
+      # Utilities
       wget
       ranger
       xarchiver
       p7zip
       ripgrep
       fd
+
+      # GUI 
+      bitwarden
+      qbittorrent
+      spotify
+      notion-app-enhanced
+      libreoffice
+      protonvpn-gui
     ];
   };
 }
