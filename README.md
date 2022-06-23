@@ -8,7 +8,7 @@ Please note that this repository may see sudden, drastic changes, and is not at 
 .dotfiles
 ├─ hosts/
 │ ├─ {hostname}/
-│ ├─ common
+│ ├─ common/
 │ └─ default.nix
 ├─ scripts/
 ├─ users/
@@ -17,4 +17,3 @@ Please note that this repository may see sudden, drastic changes, and is not at 
 │ └─ default.nix
 └─ Flake.nix
 ```
-
