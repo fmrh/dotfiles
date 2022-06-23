@@ -10,7 +10,7 @@
       enable = true;
       extraRules = [
         {
-          groups = [ "wheel" ];
+          users = [ "fmrh" ];
           noPass = false;
           keepEnv = true;
           persist = true;
