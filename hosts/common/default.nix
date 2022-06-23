@@ -2,7 +2,7 @@
 
 {
   imports =
-    [ 
+    [
       ./audio
       ./fonts
       ./locale
@@ -12,7 +12,7 @@
       ./users
       ./xserver
     ];
-  
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -25,14 +25,17 @@
     };
 
     defaultPackages = lib.mkForce [];
-    
+
     # System packages
     # TODO: move to host modules
     systemPackages = with pkgs; [
       bitwarden
-      neovim
       wget
-      git
+      ranger
+      xarchiver
+      p7zip
+      ripgrep
+      fd
     ];
   };
 }
