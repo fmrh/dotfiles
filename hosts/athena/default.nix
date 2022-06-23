@@ -60,6 +60,18 @@
     enable = true;
   };
 
+  services.xserver = {
+    libinput = {
+      enable = true;
+      touchpad = {
+        tapping = true;
+        scrollMethod = "twofinger";
+        naturalScrolling = true;
+        disableWhileTyping = true;
+      };
+    };
+  };
+
   # Do not touch!
   system.stateVersion = "21.11";
 }
