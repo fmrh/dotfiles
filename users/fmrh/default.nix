@@ -3,6 +3,7 @@
 {
   imports = [
     ./browser
+    ./keyboard
     ./vscode
   ];
 
