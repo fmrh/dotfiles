@@ -27,7 +27,6 @@
     defaultPackages = lib.mkForce [];
 
     # System packages
-    # TODO: move to host modules
     systemPackages = with pkgs; [
       bitwarden
       wget
