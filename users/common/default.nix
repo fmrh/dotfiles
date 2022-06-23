@@ -4,7 +4,9 @@
   imports = [
     ./development
     ./editor
+    ./monitoring
     ./shell
     ./terminal
+    ./utilities
   ];
 }
