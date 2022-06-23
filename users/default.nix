@@ -1,6 +1,6 @@
 { lib, system, pkgs, home-manager, ... }:
 
-let 
+let
   mainUser = "fmrh";
 
 in {

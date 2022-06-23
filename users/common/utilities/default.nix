@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  programs.flameshot = {
+  services.flameshot = {
     enable = true;
   };
 }

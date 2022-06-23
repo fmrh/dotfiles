@@ -22,7 +22,7 @@ let
     eamodio.gitlens
   ];
 
-  mySettings = builtins.readFile ./configs
+  mySettings = builtins.readFile ./settings.nix;
 
 in {
   programs.vscode = {

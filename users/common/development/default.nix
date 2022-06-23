@@ -25,6 +25,6 @@
   services.gpg-agent = {
     enable = true;
     enableZshIntegration = true;
-    gpg-agent.pinentryFlavor = "qt";
+    pinentryFlavor = "qt";
   };
 }

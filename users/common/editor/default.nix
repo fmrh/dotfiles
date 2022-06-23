@@ -22,7 +22,7 @@ let
 
   baseConfig = builtins.readFile ./configs/init.vim;
   keybindConfig = builtins.readFile ./configs/keybinds.vim;
-  pluginsCOnfig = builtins.readFile ./configs/plugins.vim;
+  pluginsConfig = builtins.readFile ./configs/plugins.vim;
 
   myVimConfig = baseConfig + keybindConfig + pluginsConfig;
 
