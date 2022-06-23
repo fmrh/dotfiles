@@ -74,7 +74,11 @@ It is possible to use home-manager as a module within the system configuration, 
 My sincere thanks to the people managing the below repositories, for showing me what was truly possible, and for teaching me how to do certain things when the official documentation felt a little too daunting, and most importantly, for inspiring me to do something much simpler, when failing to do what they managed to do.
 
 [hutzdog](https://man.sr.ht/~hutzdog/dotfiles/)
+
 [Henrik Lissner](https://github.com/hlissner/dotfiles)
+
 [Gabriel Volpe](https://github.com/gvolpe/nix-config)
+
 [Sridhar Ratnakumar](https://github.com/srid/nixos-config)
+
 [Icy Thought](https://github.com/Icy-Thought/Snowflake)
