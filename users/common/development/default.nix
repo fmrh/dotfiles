@@ -5,7 +5,7 @@
 
     git = {
       enable = true;
-      userEmail = "contact@fmrh.dev";
+      userEmail = "fmrh@pm.me";
       userName = "Fillip Holgersen";
       extraConfig = {
         init = { defaultBranch = "main"; };
