@@ -72,6 +72,9 @@
     };
   };
 
+  # fwupd
+    services.fwupd.enable = lib.mkDefault true;
+
   # Do not touch!
   system.stateVersion = "21.11";
 }
