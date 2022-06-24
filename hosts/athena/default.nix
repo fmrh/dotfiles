@@ -71,8 +71,11 @@
       };
     };
   };
+  
+  # Enable thermald for cooling management
+  services.thermald.enable = lib.mkDefault true;
 
-  # fwupd
+  # Enable fwupd for firmware updates
     services.fwupd.enable = lib.mkDefault true;
 
   # Do not touch!
