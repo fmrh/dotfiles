@@ -5,11 +5,7 @@
     ./browser
     ./communication
     ./keyboard
+    ./music
     ./vscode
-  ];
-
-  home.packages = with pkgs; [
-    # Music
-    vcv-rack
   ];
 }
