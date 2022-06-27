@@ -65,7 +65,7 @@ NOTE: There are some configuration options that overlap, but some options will o
 ### scripts
 
 The *scripts* folder is simply put where I store some of the scripts that I use to manage my system.
-Specifically, it contains an *update* script, which checks for package updates, an *applySystem* script, which applies the system configuration, and a applyUsers script, which applies the home-manager configuration.
+Specifically, it contains an *update* script, which checks for package updates, an *applySystem* script, which applies the system configuration, an applyUsers script, which applies the home-manager configuration, and finally a fwupd script, which checks for firmware upgrades and applies them, if any is available.
 
 It is possible to use home-manager as a module within the system configuration, which would remove the need for the applyUsers script, however I have had better experiences keeping them separate so far. I may revisit this later though.
 
