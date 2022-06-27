@@ -43,8 +43,6 @@
       bitwarden
       qbittorrent
       spotify
-      notion-app-enhanced
-      libreoffice
       protonvpn-gui
     ];
   };

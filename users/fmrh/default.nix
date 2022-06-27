@@ -6,6 +6,7 @@
     ./communication
     ./keyboard
     ./music
+    ./productivity
     ./vscode
   ];
 }
