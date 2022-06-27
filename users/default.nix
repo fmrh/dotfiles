@@ -5,15 +5,18 @@ let
 
 in {
   fmrh = home-manager.lib.homeManagerConfiguration {
-    inherit system pkgs;
-    username = "${mainUser}";
-    homeDirectory = "/home/${mainUser}";
-    stateVersion = "22.05";
-    configuration = {
-      imports = [
-        ./common
-        ./fmrh
-      ];
-    };
+    inherit pkgs;
+    modules = [
+      ./common
+      ./fmrh
+
+      {
+        home = {
+          username = "${mainUser}";
+          homeDirectory = "/home/${mainUser}";
+          stateVersion = "22.05";
+        };
+      }
+    ];
   };
 }
