@@ -3,6 +3,7 @@
 {
   imports =
     [
+      ./adb
       ./audio
       ./fonts
       ./locale

@@ -8,6 +8,6 @@ in {
     isNormalUser = true;
     shell = pkgs.zsh;
     description = "Fillip Holgersen";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "adbusers" ];
   };
 }
