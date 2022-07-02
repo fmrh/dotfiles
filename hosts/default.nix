@@ -5,8 +5,8 @@
     inherit system;
     specialArgs = { inherit inputs; };
     modules = [
-      ./common
       ./daedalus
+      ./modules/common
     ];
   };
 
@@ -14,8 +14,8 @@
     inherit system;
     specialArgs = { inherit inputs; };
     modules = [
-      ./common
       ./athena
+      ./modules/common
     ];
   };
 }

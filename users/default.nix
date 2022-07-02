@@ -7,8 +7,8 @@ in {
   fmrh = home-manager.lib.homeManagerConfiguration {
     inherit pkgs;
     modules = [
-      ./common
       ./fmrh
+      ./modules/common
 
       {
         home = {
