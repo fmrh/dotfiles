@@ -7,6 +7,8 @@
     modules = [
       ./daedalus
       ./modules/common
+
+      ./modules/optional/gaming
     ];
   };
 

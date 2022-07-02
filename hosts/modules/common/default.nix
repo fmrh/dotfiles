@@ -6,7 +6,6 @@
       ./adb
       ./audio
       ./fonts
-      ./gaming
       ./locale
       ./networking
       ./nix
