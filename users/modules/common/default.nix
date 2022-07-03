@@ -2,7 +2,6 @@
 
 {
   imports = [
-    ./development
     ./editor
     ./monitoring
     ./shell

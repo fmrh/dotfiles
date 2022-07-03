@@ -10,6 +10,8 @@ in {
       ./fmrh
       ./modules/common
 
+      ./modules/optional
+
       {
         home = {
           username = "${mainUser}";

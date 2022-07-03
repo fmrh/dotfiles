@@ -37,13 +37,6 @@
       p7zip
       ripgrep
       fd
-
-      # GUI 
-      bitwarden
-      qbittorrent
-      spotify
-      protonvpn-gui
-      signal-desktop
     ];
   };
 }
