@@ -9,8 +9,7 @@ This list serves as a centralised way for me to keep track of the things I still
 
 ## Hosts
 
-- [ ] Add optional modules
-- [ ] 
+No current tasks
 
 ## Scripts
 
