@@ -2,9 +2,9 @@
 
 {
   nix = {
-    allowedUsers = [ "@wheel" ];
     settings = {
       auto-optimise-store = true;
+      allowed-users = [ "@wheel" ];
     };
     gc = {
       automatic = true;
